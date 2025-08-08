@@ -1,0 +1,48 @@
+2025-08-08 08:24:56 [main] ERROR taller.service.HttpService - Error fetching data from URL: https://dragonball-api.com/api/characters.
+java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:220)
+	at java.base/java.util.Arrays$ArrayList.<init>(Arrays.java:4199)
+	at java.base/java.util.Arrays.asList(Arrays.java:4184)
+	at taller.service.HttpService.get(HttpService.java:45)
+	at taller.Main.main(Main.java:11)
+2025-08-08 08:25:28 [main] ERROR taller.service.HttpService - Error fetching data from URL: https://dragonball-api.com/api/characters.
+java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:220)
+	at java.base/java.util.Arrays$ArrayList.<init>(Arrays.java:4199)
+	at java.base/java.util.Arrays.asList(Arrays.java:4184)
+	at taller.service.HttpService.get(HttpService.java:45)
+	at taller.Main.main(Main.java:11)
+2025-08-08 08:26:05 [main] INFO  taller.service.DataStructureService - Fighter from Team 1: Goku vs Fighter from Team 2: Dodoria
+2025-08-08 08:26:05 [main] INFO  taller.service.DataStructureService - Fighter from Team 1: Vegeta vs Fighter from Team 2: Ginyu
+2025-08-08 08:26:05 [main] INFO  taller.service.DataStructureService - Fighter from Team 1: Piccolo vs Fighter from Team 2: Celula
+2025-08-08 08:26:05 [main] INFO  taller.service.DataStructureService - Fighter from Team 1: Bulma vs Fighter from Team 2: Gohan
+2025-08-08 08:26:36 [main] INFO  taller.service.DataStructureService - Fighter from Team 1: Goku vs Fighter from Team 2: Zarbon
+2025-08-08 08:26:36 [main] INFO  taller.service.DataStructureService - Fighter from Team 1: Vegeta vs Fighter from Team 2: Dodoria
+2025-08-08 08:26:36 [main] INFO  taller.service.DataStructureService - Fighter from Team 1: Piccolo vs Fighter from Team 2: Ginyu
+2025-08-08 08:26:36 [main] INFO  taller.service.DataStructureService - Fighter from Team 1: Bulma vs Fighter from Team 2: Celula
+2025-08-08 08:26:36 [main] INFO  taller.service.DataStructureService - Fighter from Team 1: Freezer vs Fighter from Team 2: Gohan
+2025-08-08 08:34:55 [main] ERROR taller.service.HttpService - Error fetching data from URL: https://dragonball-api.vercel.app/api/characters
+com.google.gson.JsonSyntaxException: Expected a com.google.gson.JsonObject but was com.google.gson.JsonPrimitive; at path $
+	at com.google.gson.internal.bind.TypeAdapters$32$1.read(TypeAdapters.java:923)
+	at com.google.gson.Gson.fromJson(Gson.java:1359)
+	at com.google.gson.Gson.fromJson(Gson.java:1260)
+	at com.google.gson.Gson.fromJson(Gson.java:1170)
+	at com.google.gson.Gson.fromJson(Gson.java:1107)
+	at taller.service.HttpService.get(HttpService.java:41)
+	at taller.service.DataStructureService.<clinit>(DataStructureService.java:21)
+	at taller.Main.main(Main.java:11)
+2025-08-08 08:36:40 [main] INFO  taller.service.DataStructureService - Powerful Character: Gohan
+2025-08-08 08:36:40 [main] INFO  taller.service.DataStructureService - Powerful Character: Celula
+2025-08-08 08:36:40 [main] INFO  taller.service.DataStructureService - Powerful Character: Piccolo
+2025-08-08 08:36:40 [main] INFO  taller.service.DataStructureService - Powerful Character: Vegeta
+2025-08-08 08:36:40 [main] INFO  taller.service.DataStructureService - Powerful Character: Goku
+2025-08-08 09:07:02 [Test worker] INFO  taller.service.DataStructureService - Powerful Character: Gohan
+2025-08-08 09:07:02 [Test worker] INFO  taller.service.DataStructureService - Powerful Character: Celula
+2025-08-08 09:07:02 [Test worker] INFO  taller.service.DataStructureService - Powerful Character: Piccolo
+2025-08-08 09:07:02 [Test worker] INFO  taller.service.DataStructureService - Powerful Character: Vegeta
+2025-08-08 09:07:02 [Test worker] INFO  taller.service.DataStructureService - Powerful Character: Goku
+2025-08-08 09:07:02 [Test worker] INFO  taller.service.DataStructureService - Fighter from Team 1: Goku vs Fighter from Team 2: Zarbon
+2025-08-08 09:07:02 [Test worker] INFO  taller.service.DataStructureService - Fighter from Team 1: Vegeta vs Fighter from Team 2: Dodoria
+2025-08-08 09:07:02 [Test worker] INFO  taller.service.DataStructureService - Fighter from Team 1: Piccolo vs Fighter from Team 2: Ginyu
+2025-08-08 09:07:02 [Test worker] INFO  taller.service.DataStructureService - Fighter from Team 1: Bulma vs Fighter from Team 2: Celula
+2025-08-08 09:07:02 [Test worker] INFO  taller.service.DataStructureService - Fighter from Team 1: Freezer vs Fighter from Team 2: Gohan
